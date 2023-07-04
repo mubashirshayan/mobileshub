@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* body{
+    background-color: rgb(255, 255, 255);
+} */
+
+.mobile_img{
+   width: 70%;
+    height: 200px;
+   
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color:rgb(219, 219, 219); */
+    margin-top: 120px;
+    height: 100%;
+}
+@media only screen and (max-width:800px)
+     { #main {height: 100vh};
+      
+     } 
+/* rgb(87, 164, 228) */
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 2px solid ;
+}
+
+#container{
+    width: 200px;
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+    background-color:#48afff;;
+    height:auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    /* margin-top: -40px; */
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    width: 100%;
+   
+    
+}
+@media only screen and (max-width:800px)
+     { .button_div {display:none};
+      
+     } 
+
+.button{
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 30px
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.main_card{
+    width: 250px;
+   
+}
+.navbar{
+    background-color:blue;
+    width: 100%;
+    position: fixed;
+   top: 0px;
+    z-index: 1;
+
+}
+.checked {
+    color: orange;
+  }
+.list{
+    margin-left: 30%;
+}
+.menu_color{
+    color: white;
+}
+@media only screen and (max-width:450px)
+     { #main { display: flex;
+        justify-content: center;
+         align-items: center;
+    }};
+.navbutton{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+}   
+     
